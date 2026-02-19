@@ -1,0 +1,10 @@
+{
+
+  "Prefabs": [
+    {
+      "RootDirectory": "Server",
+      "Path": "BattleTower/",
+      "Recursive": true
+    }
+  ]
+}

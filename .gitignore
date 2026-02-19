@@ -3,6 +3,7 @@ build/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
+.claude
 
 ### IntelliJ IDEA ###
 /.idea/
@@ -33,3 +34,8 @@ build/
 
 ### Misc ###
 /run/
+/dist/
+
+### Assets ###
+Assets
+Assets.zip

@@ -1,0 +1,16 @@
+{
+
+  "GridGenerator": {
+    "Seed": "Pattern_BattleTower",
+    "Density": 1,
+    "Scale": 0.0045,
+    "Jitter": 0.75
+  },
+  "HeightThreshold": {
+    "Positions": [113, 114],
+    "Values": [0, 1]
+  },
+  "MaxSize": 100,
+  "FitHeightmap": true,
+  "ExclusionRadius": 40
+}

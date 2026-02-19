@@ -1,1 +1,9 @@
-items.Example_Block.name=Example Block
+# === BattleTowers ===
+items.BattleTowers_Tower_Sigil.name = Tower Sigil
+items.BattleTowers_Tower_Sigil.description = A strange sigil taken from a fallen tower boss.
+
+items.BattleTowers_Tower_Core.name = Tower Core
+items.BattleTowers_Tower_Core.description = A rare core humming with condensed magic.
+
+items.BattleTowers_Tower_Key.name = Tower Key
+items.BattleTowers_Tower_Key.description = A forged key that can unlock tower vaults and rewards.

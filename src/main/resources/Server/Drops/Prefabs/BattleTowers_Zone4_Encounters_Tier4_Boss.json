@@ -1,0 +1,82 @@
+{
+  "Container": {
+    "Type": "Multiple",
+    "Containers": [
+      {
+        "Type": "Single",
+        "Item": {
+          "ItemId": "BattleTowers_Tower_Sigil",
+          "QuantityMin": 1,
+          "QuantityMax": 1
+        }
+      },
+      {
+        "Type": "Single",
+        "Item": {
+          "ItemId": "BattleTowers_Tower_Core",
+          "QuantityMin": 1,
+          "QuantityMax": 1
+        }
+      },
+      {
+        "Type": "Choice",
+        "RollsMin": 2,
+        "RollsMax": 4,
+        "Containers": [
+          { "Type": "Single", "Weight": 12, "Item": { "ItemId": "Ingredient_Ice_Essence", "QuantityMin": 2, "QuantityMax": 6 } },
+          { "Type": "Single", "Weight": 12, "Item": { "ItemId": "Ingredient_Fabric_Scrap_Drifter", "QuantityMin": 2, "QuantityMax": 6 } },
+          { "Type": "Single", "Weight": 10, "Item": { "ItemId": "Ingredient_Leather_Heavy", "QuantityMin": 2, "QuantityMax": 4 } },
+          { "Type": "Single", "Weight": 8,  "Item": { "ItemId": "Ingredient_Powder_Boom", "QuantityMin": 1, "QuantityMax": 3 } },
+          { "Type": "Single", "Weight": 6,  "Item": { "ItemId": "Ingredient_Fibre", "QuantityMin": 5, "QuantityMax": 10 } },
+          { "Type": "Single", "Weight": 6,  "Item": { "ItemId": "Ingredient_Stick", "QuantityMin": 5, "QuantityMax": 10 } },
+          { "Type": "Single", "Weight": 4,  "Item": { "ItemId": "Ingredient_Tree_Sap", "QuantityMin": 3, "QuantityMax": 5 } },
+          { "Type": "Single", "Weight": 6,  "Item": { "ItemId": "Ingredient_Charcoal", "QuantityMin": 3, "QuantityMax": 7 } },
+          { "Type": "Single", "Weight": 6,  "Item": { "ItemId": "Ore_Gold", "QuantityMin": 3, "QuantityMax": 5 } },
+          { "Type": "Single", "Weight": 3,  "Item": { "ItemId": "Ingredient_Bar_Gold", "QuantityMin": 2, "QuantityMax": 3 } },
+          { "Type": "Single", "Weight": 8,  "Item": { "ItemId": "Ingredient_Bar_Cobalt", "QuantityMin": 2, "QuantityMax": 5 } },
+          { "Type": "Single", "Weight": 8,  "Item": { "ItemId": "Ingredient_Bar_Tritium", "QuantityMin": 2, "QuantityMax": 4 } },
+          { "Type": "Single", "Weight": 1, "Item": { "ItemId": "Tool_Repair_Kit_Thorium", "QuantityMin": 1, "QuantityMax": 1 } }
+        ]
+      },
+      {
+        "Type": "Choice",
+        "RollsMin": 1,
+        "RollsMax": 2,
+        "Containers": [
+          { "Type": "Single", "Weight": 6, "Item": { "ItemId": "Food_Meat_Kebab", "QuantityMin": 2, "QuantityMax": 4 } },
+          { "Type": "Single", "Weight": 6, "Item": { "ItemId": "Potion_Health_Greater", "QuantityMin": 1, "QuantityMax": 3 } },
+          { "Type": "Single", "Weight": 6, "Item": { "ItemId": "Potion_Stamina_Greater", "QuantityMin": 1, "QuantityMax": 3 } },
+          { "Type": "Single", "Weight": 3, "Item": { "ItemId": "Potion_Signature_Greater", "QuantityMin": 1, "QuantityMax": 3 } }
+        ]
+      },
+      {
+        "Type": "Choice",
+        "RollsMin": 1,
+        "RollsMax": 1,
+        "Containers": [
+          { "Type": "Single", "Weight": 3, "Item": { "ItemId": "Weapon_Battleaxe_Cobalt", "QuantityMin": 1, "QuantityMax": 1 } },
+          { "Type": "Single", "Weight": 3, "Item": { "ItemId": "Weapon_Daggers_Cobalt", "QuantityMin": 1, "QuantityMax": 1 } },
+          { "Type": "Single", "Weight": 3, "Item": { "ItemId": "Weapon_Mace_Cobalt", "QuantityMin": 1, "QuantityMax": 1 } },
+          { "Type": "Single", "Weight": 3, "Item": { "ItemId": "Weapon_Sword_Cobalt", "QuantityMin": 1, "QuantityMax": 1 } },
+          { "Type": "Single", "Weight": 3, "Item": { "ItemId": "Weapon_Shield_Cobalt", "QuantityMin": 1, "QuantityMax": 1 } },
+          { "Type": "Single", "Weight": 3, "Item": { "ItemId": "Weapon_Shortbow_Cobalt", "QuantityMin": 1, "QuantityMax": 1 } },
+          { "Type": "Single", "Weight": 6, "Item": { "ItemId": "Tool_Hatchet_Cobalt", "QuantityMin": 1, "QuantityMax": 1 } },
+          { "Type": "Single", "Weight": 6, "Item": { "ItemId": "Tool_Pickaxe_Cobalt", "QuantityMin": 1, "QuantityMax": 1 } },
+          { "Type": "Single", "Weight": 6, "Item": { "ItemId": "Armor_Cobalt_Chest", "QuantityMin": 1, "QuantityMax": 1 } },
+          { "Type": "Single", "Weight": 6, "Item": { "ItemId": "Armor_Cobalt_Hands", "QuantityMin": 1, "QuantityMax": 1 } },
+          { "Type": "Single", "Weight": 6, "Item": { "ItemId": "Armor_Cobalt_Head", "QuantityMin": 1, "QuantityMax": 1 } },
+          { "Type": "Single", "Weight": 6, "Item": { "ItemId": "Armor_Cobalt_Legs", "QuantityMin": 1, "QuantityMax": 1 } },
+          { "Type": "Single", "Weight": 15, "Item": { "ItemId": "Weapon_Battleaxe_Thorium", "QuantityMin": 1, "QuantityMax": 1 } },
+          { "Type": "Single", "Weight": 15, "Item": { "ItemId": "Weapon_Daggers_Thorium", "QuantityMin": 1, "QuantityMax": 1 } },
+          { "Type": "Single", "Weight": 15, "Item": { "ItemId": "Weapon_Mace_Thorium", "QuantityMin": 1, "QuantityMax": 1 } },
+          { "Type": "Single", "Weight": 15, "Item": { "ItemId": "Weapon_Sword_Thorium", "QuantityMin": 1, "QuantityMax": 1 } },
+          { "Type": "Single", "Weight": 15, "Item": { "ItemId": "Weapon_Shield_Thorium", "QuantityMin": 1, "QuantityMax": 1 } },
+          { "Type": "Single", "Weight": 15, "Item": { "ItemId": "Weapon_Shortbow_Thorium", "QuantityMin": 1, "QuantityMax": 1 } },
+          { "Type": "Single", "Weight": 25, "Item": { "ItemId": "Weapon_Arrow_Fine", "QuantityMin": 10, "QuantityMax": 20 } },
+          { "Type": "Empty", "Weight": 80 }
+        ]
+      }
+    ]
+  }
+}
+
